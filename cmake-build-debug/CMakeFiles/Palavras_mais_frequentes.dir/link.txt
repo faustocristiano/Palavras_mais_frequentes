@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Palavras_mais_frequentes.dir/main.cpp.o -o Palavras_mais_frequentes 
