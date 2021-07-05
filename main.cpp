@@ -22,11 +22,8 @@ int main(int argc, char** argv) {
         return errno;
     }
     string w;
-
     unordered_map<string, int> tab;
-    int cont = 1;
-
-    while (arq >> w) {
+       while (arq >> w) {
         if (tab.count(w) > 0) {
             tab[w]++;
         } else {
@@ -38,16 +35,11 @@ int main(int argc, char** argv) {
         ordem.push_back(item);
     }
         ordem.sort(compara_resultado);
-
-
-
         for (auto &k: ordem) {
             cout << k.first << " "<< k.second<<endl;
             i++;
             if(j<=i){
                 break;
         }
-
     }
-
 }
